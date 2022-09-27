@@ -13,9 +13,11 @@ body {
   border: 1px solid #b3b1b1;
   margin-top: 50px;
   margin-bottom: 50px;
-  padding: 50px;
   text-align: center;
   background-color: #f5f5f2;
+}
+.navbar-brand {
+  font-family: "Train One", cursive;
 }
 .heading {
   text-align: center;

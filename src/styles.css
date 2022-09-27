@@ -1,3 +1,8 @@
-h1 {
+body {
   font-family: "Merriweather", serif;
+}
+.headingStyle {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }

@@ -18,6 +18,7 @@ body {
   background-color: #f5f5f2;
 }
 .navbar-brand {
+  font-family: "Train One", cursive;
   font-family: "Audiowide", cursive;
   font-size: 30px;
 }
@@ -77,6 +78,7 @@ body {
   justify-content: end;
   margin-top: -50px;
   color: #6b6868;
+  margin-bottom: 20px;
 }
 @media (max-width: 490px) {
   .mediaLinks {

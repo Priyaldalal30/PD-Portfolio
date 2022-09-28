@@ -52,7 +52,8 @@ body {
   font-size: 13px;
   color: #848383;
 }
-.imageStyle {
+.homeimageStyle,
+.profileimageStyle {
   max-width: 70%;
   display: block;
   margin: auto;

@@ -120,7 +120,10 @@ body {
 
 .weather,
 .coming-soon,
-.moodboard {
+.moodboard,
+.email,
+.call,
+.contact {
   max-width: 100%;
   height: auto;
   display: block;
@@ -130,6 +133,11 @@ body {
   backface-visibility: hidden;
   transition: 0.5s ease;
   opacity: 1;
+}
+@media (max-width: 767px) {
+  .contact {
+    display: none;
+  }
 }
 .projImageHover {
   position: relative;

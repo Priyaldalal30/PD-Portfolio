@@ -25,15 +25,15 @@ body {
 .heading {
   text-align: center;
   margin-top: 80px;
-  font-size: 50px;
+  font-size: 40px;
   letter-spacing: 10px;
 }
 @media (max-width: 768px) {
   .heading {
-    font-size: 30px;
+    font-size: 28px;
   }
   .subheading {
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 @media (max-width: 541px) {
@@ -48,7 +48,7 @@ body {
   text-align: center;
   margin-top: 0px;
   margin-bottom: 50px;
-  font-size: 15px;
+  font-size: 13px;
   color: #848383;
 }
 .imageStyle {
@@ -106,4 +106,12 @@ body {
 .githublink:hover {
   color: #424040;
   text-decoration: underline;
+}
+.profileText {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: left;
+  font-size: 14px;
 }

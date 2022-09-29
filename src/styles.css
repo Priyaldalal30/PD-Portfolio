@@ -134,12 +134,8 @@ body {
   transition: 0.5s ease;
   opacity: 1;
 }
-@media (max-width: 767px) {
-  .contact {
-    display: none;
-  }
-}
-.projImageHover {
+.projImageHover,
+.contactImageHover {
   position: relative;
   width: 100%;
 }
@@ -153,30 +149,41 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.projImageHover:hover .image {
+.projImageHover:hover .image,
+.contactImageHover:hover .image {
   opacity: 0.3;
 }
 
-.projImageHover:hover .middle {
+.projImageHover:hover .middle,
+.contactImageHover:hover .middle {
   opacity: 1;
 }
-
-.projText {
+.projText,
+.contactText {
   background-color: rgba(0, 0, 0, 0.443);
   color: white;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18px;
   padding: 16px 32px;
 }
-.projTextLink {
+.contactText {
+  padding: 5px 5px;
+}
+.projTextLink,
+.contactTextLink {
   color: white;
   font-weight: bolder;
   font-size: 28px;
   text-decoration: none;
 }
-.projTextLink:hover {
+.contactTextLink {
+  font-size: 18px;
+}
+.projTextLink:hover,
+.contactTextLink:hover {
   color: white;
 }
+
 .dsText,
 .wText {
   font-size: 18px;

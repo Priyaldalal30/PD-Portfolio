@@ -117,10 +117,7 @@ body {
   text-align: left;
   font-size: 14px;
 }
-.dsText,
-.wText {
-  font-size: 12px;
-}
+
 .weather,
 .coming-soon,
 .moodboard,
@@ -165,7 +162,7 @@ body {
 }
 
 .projText {
-  background-color: rgba(0, 0, 0, 0.407);
+  background-color: rgba(0, 0, 0, 0.443);
   color: white;
   font-weight: bolder;
   font-size: 20px;
@@ -174,9 +171,16 @@ body {
 .projTextLink {
   color: white;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 28px;
   text-decoration: none;
 }
 .projTextLink:hover {
   color: white;
+}
+.dsText,
+.wText {
+  font-size: 18px;
+}
+.sheCodesLogo {
+  width: 100%;
 }

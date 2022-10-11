@@ -59,6 +59,10 @@ body {
   margin: auto;
   margin-bottom: 50px;
 }
+.profileimageStyle {
+  margin: auto;
+  max-width: 90%;
+}
 .codeLink {
   color: #6b6868;
   text-decoration: none;
@@ -77,18 +81,12 @@ body {
 }
 .mediaLinks {
   display: flex;
-  justify-content: end;
-  margin-top: -50px;
+  justify-content: start;
+  margin-top: -20px;
   color: #6b6868;
   margin-bottom: 30px;
 }
-@media (max-width: 490px) {
-  .mediaLinks {
-    position: relative;
-    bottom: -25px;
-  }
-}
-.linkedin,
+
 .facebook,
 .instagram,
 .github {
@@ -110,10 +108,11 @@ body {
   text-decoration: underline;
 }
 .profileText {
-  max-width: 70%;
+  max-width: 90%;
   display: block;
   margin: auto;
   margin-bottom: 50px;
+  margin-top: 50px;
   text-align: left;
   font-size: 14px;
 }

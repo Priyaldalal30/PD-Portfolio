@@ -93,6 +93,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+.linkedin {
+  padding-right: 10px;
+}
 .linkedlink,
 .fblink,
 .instalink,
@@ -100,12 +103,17 @@ body {
   color: #6b6868;
   text-decoration: none;
 }
-.linkedlink:hover,
-.fblink:hover,
-.instalink:hover,
+.linkedlink:hover {
+  color: #1066c2;
+}
+.fblink:hover {
+  color: #3b5998;
+}
+.instalink:hover {
+  color: #e0447c;
+}
 .githublink:hover {
-  color: #424040;
-  text-decoration: underline;
+  color: #682e8e;
 }
 .profileText {
   max-width: 90%;

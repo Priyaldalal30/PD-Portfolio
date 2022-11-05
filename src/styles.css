@@ -65,7 +65,7 @@ body {
 }
 .codeLink {
   color: #6b6868;
-  text-decoration: none;
+  text-decoration: underline;
   margin-left: 3px;
 }
 .codeLink:hover {
@@ -180,7 +180,7 @@ body {
 .contactTextLink {
   color: white;
   font-weight: bolder;
-  font-size: 28px;
+  font-size: 22px;
   text-decoration: none;
 }
 .contactTextLink {

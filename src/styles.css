@@ -45,13 +45,40 @@ body {
     font-size: 8px;
   }
 }
-.subheading {
+.subheading,
+.sub-heading {
   text-align: center;
   margin-top: 0px;
-  margin-bottom: 50px;
   font-size: 13px;
   color: #848383;
 }
+.sub-heading {
+  font-size: 11px;
+}
+
+.resume {
+  font-size: 11px;
+  margin-bottom: 50px;
+  color: #848383;
+}
+.course {
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+.resume:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.projectContainter {
+  margin-top: 20px;
+}
+.SheCodes-Basics {
+  background-color: rgba(0, 0, 0, 0.158);
+  height: 100%;
+}
+
 .homeimageStyle,
 .profileimageStyle {
   max-width: 70%;
@@ -59,10 +86,7 @@ body {
   margin: auto;
   margin-bottom: 50px;
 }
-.profileimageStyle {
-  margin: auto;
-  max-width: 90%;
-}
+
 .codeLink {
   color: #6b6868;
   text-decoration: underline;
@@ -87,18 +111,14 @@ body {
   margin-bottom: 30px;
 }
 
-.facebook,
-.instagram,
 .github {
   padding-left: 10px;
   padding-right: 10px;
 }
 .linkedin {
-  padding-right: 10px;
+  padding-right: 7px;
 }
 .linkedlink,
-.fblink,
-.instalink,
 .githublink {
   color: #6b6868;
   text-decoration: none;
@@ -106,12 +126,7 @@ body {
 .linkedlink:hover {
   color: #1066c2;
 }
-.fblink:hover {
-  color: #3b5998;
-}
-.instalink:hover {
-  color: #e0447c;
-}
+
 .githublink:hover {
   color: #682e8e;
 }
@@ -125,9 +140,7 @@ body {
   font-size: 14px;
 }
 
-.weather,
-.coming-soon,
-.moodboard,
+.project,
 .email,
 .call,
 .contact {

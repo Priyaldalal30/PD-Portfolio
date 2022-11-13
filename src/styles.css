@@ -61,11 +61,7 @@ body {
   margin-bottom: 50px;
   color: #848383;
 }
-.course {
-  font-size: 14px;
-  font-weight: bold;
-  color: black;
-}
+
 .resume:hover {
   text-decoration: underline;
   color: black;
@@ -158,6 +154,12 @@ body {
 .contactImageHover {
   position: relative;
   width: 100%;
+}
+.course {
+  font-size: 13px;
+  margin: 0 auto;
+  color: black;
+  margin-top: 20px;
 }
 .middle {
   transition: 0.5s ease;

@@ -43,6 +43,7 @@ body {
   }
   .subheading {
     font-size: 8px;
+    padding-bottom: 10px;
   }
 }
 .subheading,
@@ -54,6 +55,7 @@ body {
 }
 .sub-heading {
   font-size: 11px;
+  padding-bottom: 10px;
 }
 
 .resume {
@@ -88,6 +90,7 @@ body {
   text-decoration: underline;
   margin-left: 3px;
 }
+
 .codeLink:hover {
   color: #424040;
   text-decoration: underline;
@@ -155,12 +158,6 @@ body {
   position: relative;
   width: 100%;
 }
-.course {
-  font-size: 13px;
-  margin: 0 auto;
-  color: black;
-  margin-top: 20px;
-}
 .middle {
   transition: 0.5s ease;
   opacity: 0;
@@ -171,6 +168,20 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
+.middleText {
+  opacity: 1;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  text-align: left;
+}
+.middleContactText {
+  opacity: 1;
+  position: relative;
+  top: -100px;
+  left: 0%;
+  text-align: center;
+}
 .projImageHover:hover .image,
 .contactImageHover:hover .image {
   opacity: 0.3;
@@ -179,6 +190,49 @@ body {
 .projImageHover:hover .middle,
 .contactImageHover:hover .middle {
   opacity: 1;
+}
+.projCourseText {
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+
+.courseText {
+  color: black;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 10px;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .middleText {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    text-align: left;
+  }
+  .projCourseText {
+    font-size: 12px;
+  }
+  .courseText {
+    font-size: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .middleText {
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    text-align: left;
+  }
+  .projCourseText {
+    font-size: 18px;
+  }
+  .courseText {
+    font-size: 18px;
+  }
 }
 .projText,
 .contactText {
@@ -212,4 +266,18 @@ body {
 }
 .sheCodesLogo {
   width: 100%;
+}
+.certificateGrid {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px;
+}
+.certificate {
+  width: 100%;
+}
+.certificates {
+  text-align: start;
+  padding: 0 52px;
+  margin-bottom: 3px;
 }

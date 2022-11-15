@@ -238,11 +238,12 @@ body {
 }
 .projText,
 .contactText {
+  width: 210px;
   background-color: rgba(0, 0, 0, 0.443);
   color: white;
   font-weight: bolder;
-  font-size: 18px;
-  padding: 16px 32px;
+  font-size: 20px;
+  padding: 8px 8px;
 }
 .contactText {
   padding: 5px 5px;
@@ -251,7 +252,7 @@ body {
 .contactTextLink {
   color: white;
   font-weight: bolder;
-  font-size: 22px;
+  font-size: 16px;
   text-decoration: none;
 }
 .contactTextLink {
@@ -260,6 +261,7 @@ body {
 .projTextLink:hover,
 .contactTextLink:hover {
   color: white;
+  text-decoration: underline;
 }
 
 .dsText,
@@ -282,4 +284,12 @@ body {
   text-align: start;
   padding: 0 52px;
   margin-bottom: 3px;
+}
+.pprtfolioTextLink {
+  text-decoration: none;
+  color: black;
+}
+.pprtfolioTextLink:hover {
+  text-decoration: underline;
+  color: black;
 }

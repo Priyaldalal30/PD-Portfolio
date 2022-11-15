@@ -28,6 +28,17 @@ body {
   font-size: 40px;
   letter-spacing: 10px;
 }
+.subheading,
+.sub-heading {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 13px;
+  color: #848383;
+}
+.sub-heading {
+  font-size: 11px;
+  padding-bottom: 10px;
+}
 @media (max-width: 768px) {
   .heading {
     font-size: 28px;
@@ -45,17 +56,6 @@ body {
     font-size: 8px;
     padding-bottom: 10px;
   }
-}
-.subheading,
-.sub-heading {
-  text-align: center;
-  margin-top: 0px;
-  font-size: 13px;
-  color: #848383;
-}
-.sub-heading {
-  font-size: 11px;
-  padding-bottom: 10px;
 }
 
 .resume {
@@ -289,7 +289,7 @@ body {
   text-decoration: none;
   color: black;
 }
-.pprtfolioTextLink:hover {
+.portfolioTextLink:hover {
   text-decoration: underline;
   color: black;
 }

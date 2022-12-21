@@ -35,6 +35,9 @@ body {
   font-size: 13px;
   color: #848383;
 }
+.subheading {
+  padding-bottom: 20px;
+}
 .sub-heading {
   font-size: 11px;
   padding-bottom: 10px;

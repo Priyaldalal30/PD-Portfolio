@@ -157,6 +157,7 @@ body {
 .contactImageHover {
   position: relative;
   width: 100%;
+  margin-bottom: 20px;
 }
 .middle {
   transition: 0.5s ease;
@@ -175,15 +176,7 @@ body {
   left: 0%;
   text-align: left;
 }
-.middleContactText {
-  opacity: 1;
-  position: relative;
-  top: -80px;
-  left: 0%;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-}
+
 .projImageHover:hover .image,
 .contactImageHover:hover .image {
   opacity: 0.3;
@@ -235,9 +228,18 @@ body {
   .courseText {
     font-size: 18px;
   }
+  .notOnSmallScreen {
+    display: none;
+  }
 }
-.projText,
-.contactText {
+.emailMe {
+  color: black;
+  text-decoration: none;
+}
+.emailMe:hover {
+  text-decoration: underline;
+}
+.projText {
   width: 210px;
   background-color: rgba(0, 0, 0, 0.443);
   color: white;
@@ -245,21 +247,15 @@ body {
   font-size: 20px;
   padding: 8px 8px;
 }
-.contactText {
-  padding: 5px 5px;
-}
-.projTextLink,
-.contactTextLink {
+
+.projTextLink {
   color: white;
   font-weight: bolder;
   font-size: 16px;
   text-decoration: none;
 }
-.contactTextLink {
-  font-size: 18px;
-}
-.projTextLink:hover,
-.contactTextLink:hover {
+
+.projTextLink:hover {
   color: white;
   text-decoration: underline;
 }
